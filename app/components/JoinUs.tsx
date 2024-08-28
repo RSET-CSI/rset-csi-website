@@ -4,14 +4,11 @@ import { MagicBoarderButton } from "./ui/MagicBoarderButton";
 
 const JoinUs = () => {
   const handleJoinNowClick = () => {
-    window.open("https://forms.gle/Ki5KcqEmon7TU4cx6", "_blank"); // Replace with your actual link
+    window.open("https://forms.gle/Ki5KcqEmon7TU4cx6", "_blank");
   };
 
   return (
-    <div
-      className="w-full h-[30rem] overflow-hidden" // Full width to take up the entire screen
-      id="join"
-    >
+    <div className="w-full h-[30rem] overflow-hidden" id="join">
       <Vortex
         backgroundColor="black"
         className="flex items-center flex-col justify-center px-4 md:px-10 py-8 w-full h-full"

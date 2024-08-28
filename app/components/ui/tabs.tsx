@@ -1,4 +1,3 @@
-// components/Tabs.tsx
 "use client";
 
 import { useState } from "react";
@@ -9,7 +8,7 @@ type Tab = {
   title: string;
   value: string;
   content?: React.ReactNode;
-  imageUrl?: string; // Assuming tabs might have images
+  imageUrl?: string;
 };
 
 interface TabsProps {
@@ -52,7 +51,7 @@ export const Tabs: React.FC<TabsProps> = ({
               <img
                 src={tab.imageUrl}
                 alt={`${tab.title} image`}
-                className="w-6 h-6 md:w-10 md:h-10 mr-2" // Smaller on mobile, larger on desktop
+                className="w-6 h-6 md:w-10 md:h-10 mr-2"
               />
             )}
             {tab.title}
@@ -60,7 +59,6 @@ export const Tabs: React.FC<TabsProps> = ({
         ))}
       </div>
 
-      {/* Tab Content */}
       <AnimatePresence mode="wait" initial={false}>
         <motion.div
           className={cn(

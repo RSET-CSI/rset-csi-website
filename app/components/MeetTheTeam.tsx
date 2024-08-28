@@ -8,7 +8,7 @@ interface TeamMember {
 
 interface Team {
   name: string;
-  lead?: { src: string; name: string }; // Optional lead
+  lead?: { src: string; name: string };
   members: TeamMember[];
 }
 

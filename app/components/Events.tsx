@@ -6,26 +6,23 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Pagination, Autoplay } from "swiper/modules";
-import { upcomingEvents, pastEvents } from "../data"; // Import the data
+import { upcomingEvents, pastEvents } from "../data";
 
 const Events: React.FC = () => {
-  // Reverse the pastEvents array so the last event comes first
   const reversedPastEvents = [...pastEvents].reverse();
 
-  // Define Swiper settings with responsive breakpoints
   const swiperSettings = {
     spaceBetween: 10,
     pagination: { clickable: true },
     autoplay: { delay: 3000, disableOnInteraction: false },
     modules: [Pagination, Autoplay],
     breakpoints: {
-      // Configuration for smaller screens (e.g., mobile devices)
       0: {
-        slidesPerView: 2, // 2 slides per view for small screens
+        slidesPerView: 2,
       },
-      // Configuration for larger screens (e.g., tablets and desktops)
+
       1024: {
-        slidesPerView: 4, // 4 slides per view for large screens
+        slidesPerView: 4,
       },
     },
   };
