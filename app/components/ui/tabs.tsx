@@ -43,7 +43,7 @@ export const Tabs: React.FC<TabsProps> = ({
             key={tab.title}
             onClick={() => setActive(tab)}
             className={cn(
-              "px-6 py-3 md:py-2 md:px-4 rounded-lg md:rounded-full transition-colors duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-500",
+              "px-6 py-3 md:py-2 md:px-4 transition-colors duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-500",
               tabClassName,
               active.value === tab.value ? activeTabClassName : "text-gray-600"
             )}

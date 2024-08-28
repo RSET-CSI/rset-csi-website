@@ -1,0 +1,111 @@
+import React from "react";
+import { CardContainer, CardBody, CardItem } from "./ui/EventCard";
+import Image from "next/image";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+import { Pagination, Autoplay } from "swiper/modules";
+import { upcomingEvents, pastEvents } from "../data"; // Import the data
+
+const Events: React.FC = () => {
+  // Reverse the pastEvents array so the last event comes first
+  const reversedPastEvents = [...pastEvents].reverse();
+
+  return (
+    <div
+      className="relative"
+      style={{
+        background: `
+          radial-gradient(circle at bottom left, rgba(187, 108, 230, 0.4) 10%, rgba(187, 108, 230, 0) 25%),
+          radial-gradient(circle at top right, rgba(56, 72, 241, 0.4) 10%, rgba(56, 72, 241, 0) 33%),
+          linear-gradient(to bottom right, #0a041c, #0a041c)`,
+        zIndex: -1,
+      }}
+    >
+      <section id="events" className="py-12">
+        <h2 className="text-5xl font-extrabold text-center" id="events">
+          Upcoming <span className="text-[#3848f1]">Events</span>
+        </h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mb-12">
+          {upcomingEvents.map((event) => (
+            <CardContainer key={event.id}>
+              <CardBody className="bg-gray-50 relative group/card dark:hover:shadow-2xl dark:hover:shadow-[#3848f1]/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-full sm:w-[22rem] h-auto rounded-xl p-4 border">
+                <CardItem
+                  translateZ="50"
+                  className="text-lg font-bold text-neutral-600 dark:text-white"
+                >
+                  {event.title}
+                </CardItem>
+                <CardItem
+                  as="p"
+                  translateZ="60"
+                  className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
+                >
+                  {event.description}
+                </CardItem>
+                <CardItem translateZ="100" className="w-full mt-4">
+                  <Image
+                    src={event.imageUrl}
+                    height={320}
+                    width={320}
+                    className="w-full object-cover rounded-xl group-hover/card:shadow-xl"
+                    alt={event.title}
+                  />
+                </CardItem>
+                <div className="flex justify-between items-center mt-6"></div>
+              </CardBody>
+            </CardContainer>
+          ))}
+        </div>
+
+        <h2 className="text-5xl font-extrabold text-center">
+          Past <span className="text-[#ef43cf]">Events</span>
+        </h2>
+        <Swiper
+          slidesPerView="auto"
+          spaceBetween={10}
+          pagination={{ clickable: true }}
+          autoplay={{ delay: 3000, disableOnInteraction: false }} // Enable auto-scrolling
+          modules={[Pagination, Autoplay]} // Include Autoplay module
+          className="w-full"
+          grabCursor={true} // Enable cursor grab on hover
+          freeMode={true} // Enable free mode for dragging
+        >
+          {reversedPastEvents.map((event) => (
+            <SwiperSlide key={event.id} className="!w-auto">
+              <CardContainer>
+                <CardBody className="bg-gray-50 relative group/card dark:hover:shadow-2xl dark:hover:shadow-[#3848f1]/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-full sm:w-[22rem] h-auto rounded-xl p-4 border">
+                  <CardItem
+                    translateZ="50"
+                    className="text-lg font-bold text-neutral-600 dark:text-white"
+                  >
+                    {event.title}
+                  </CardItem>
+                  <CardItem
+                    as="p"
+                    translateZ="60"
+                    className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
+                  >
+                    {event.description}
+                  </CardItem>
+                  <CardItem translateZ="100" className="w-full mt-4">
+                    <Image
+                      src={event.imageUrl}
+                      height={320}
+                      width={320}
+                      className="object-cover rounded-xl group-hover/card:shadow-xl"
+                      alt={event.title}
+                    />
+                  </CardItem>
+                </CardBody>
+              </CardContainer>
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </section>
+    </div>
+  );
+};
+
+export default Events;
