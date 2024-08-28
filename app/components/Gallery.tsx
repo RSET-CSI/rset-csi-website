@@ -1,33 +1,30 @@
 import React, { useState } from "react";
-import { Dialog, IconButton, ImageList, ImageListItem } from "@mui/material";
+import { IconButton, ImageList, ImageListItem } from "@mui/material";
 import {
   Close as CloseIcon,
   ArrowBack,
   ArrowForward,
 } from "@mui/icons-material";
-import { images } from "../data"; // Assuming images is an array of image URLs
+import { images } from "../data";
+import CustomDialog from "./ui/Dialog";
 
 const Gallery: React.FC = () => {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
   const [currentIndex, setCurrentIndex] = useState<number>(0);
 
-  // Function to open the image dialog
   const openImage = (index: number) => {
     setCurrentIndex(index);
     setSelectedImage(images[index]);
   };
 
-  // Function to close the image dialog
   const closeImage = () => setSelectedImage(null);
 
-  // Function to navigate to the previous image
   const prevImage = () => {
     const newIndex = (currentIndex - 1 + images.length) % images.length;
     setCurrentIndex(newIndex);
     setSelectedImage(images[newIndex]);
   };
 
-  // Function to navigate to the next image
   const nextImage = () => {
     const newIndex = (currentIndex + 1) % images.length;
     setCurrentIndex(newIndex);
@@ -60,12 +57,7 @@ const Gallery: React.FC = () => {
         ))}
       </ImageList>
 
-      <Dialog
-        open={!!selectedImage}
-        onClose={closeImage}
-        maxWidth="md"
-        fullWidth
-      >
+      <CustomDialog open={!!selectedImage} onClose={closeImage}>
         {selectedImage && (
           <div style={{ position: "relative", textAlign: "center" }}>
             <IconButton
@@ -78,13 +70,13 @@ const Gallery: React.FC = () => {
             <img
               src={selectedImage}
               alt="Selected"
-              style={{ width: "80%", maxWidth: "500px", borderRadius: "8px" }}
+              style={{ width: "90%", maxWidth: "600px", borderRadius: "8px" }}
             />
             <IconButton
               aria-label="Previous"
               style={{
                 position: "absolute",
-                left: 16,
+                left: -50,
                 top: "50%",
                 transform: "translateY(-50%)",
               }}
@@ -106,7 +98,7 @@ const Gallery: React.FC = () => {
             </IconButton>
           </div>
         )}
-      </Dialog>
+      </CustomDialog>
     </div>
   );
 };

@@ -24,7 +24,7 @@ export const Navbar = ({
   ) => {
     e.preventDefault();
     smoothScrollTo(link);
-    setIsMobileMenuOpen(false); // Close menu after clicking on a link
+    setIsMobileMenuOpen(false);
   };
 
   return (
@@ -35,19 +35,13 @@ export const Navbar = ({
       )}
     >
       <div className="container mx-auto flex items-center justify-between px-6">
-        {/* Logo */}
         <Link href="/" className="flex items-center space-x-2">
-          <img
-            src="/images/csi_logo.png" // Replace with your logo URL
-            alt="Logo"
-            className="h-10 w-10"
-          />
+          <img src="/images/csi_logo.png" alt="Logo" className="h-10 w-10" />
           <span className="text-2xl font-bold text-neutral-600 dark:text-neutral-50">
             CSI Student Branch
           </span>
         </Link>
 
-        {/* Menu */}
         <div className="hidden md:flex space-x-8">
           {navItems.map((navItem, idx) => (
             <a
@@ -70,7 +64,6 @@ export const Navbar = ({
           </a>
         </div>
 
-        {/* Mobile Menu Button */}
         <div className="md:hidden flex items-center">
           <button
             className="text-white focus:outline-none"

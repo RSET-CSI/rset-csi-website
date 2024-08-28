@@ -13,7 +13,7 @@ const About = () => {
             radial-gradient(circle at bottom left, rgba(187, 108, 230, 0.4) 10%, rgba(187, 108, 230, 0) 40%),
             linear-gradient(to top right, #0a041c, #0a041c)
           `,
-          zIndex: -1, // Make sure the gradient is behind the content
+          zIndex: -1,
         }}
       ></div>
       <div className="flex flex-col md:flex-row min-h-screen">

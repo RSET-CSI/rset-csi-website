@@ -8,7 +8,6 @@ const Hero = () => {
       className="h-[50rem] w-full relative flex items-center justify-center"
       id="home"
     >
-      {/* Gradient Background with Dominant Dark Color and Subtle Corner Lights */}
       <div
         className="absolute inset-0"
         style={{
@@ -19,10 +18,8 @@ const Hero = () => {
         }}
       ></div>
 
-      {/* Dotted Background */}
       {/* <div className="absolute inset-0 dark:bg-dot-white/[0.2] bg-dot-black/[0.2] z-10"></div> */}
 
-      {/* Mask to Create the Ellipse Effect */}
       <div className="absolute inset-0 flex items-center justify-center z-20 [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
 
       <div
