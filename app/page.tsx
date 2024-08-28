@@ -1,5 +1,7 @@
 "use client";
 import About from "./components/About";
+import Events from "./components/Events";
+import Gallery from "./components/Gallery";
 import Hero from "./components/Hero";
 import JoinUs from "./components/JoinUs";
 import MeetTheTeam from "./components/MeetTheTeam";
@@ -13,7 +15,9 @@ export default function Home() {
       <Hero />
       <About />
       <MeetTheTeam />
-      <JoinUs />
+      <Events />
+      {/* <Gallery /> */}
+      {/* <JoinUs /> */}
     </main>
   );
 }

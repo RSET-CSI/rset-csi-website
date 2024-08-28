@@ -1,14 +1,7 @@
 "use client";
 import React from "react";
 import { LayoutGrid } from "./ui/LayoutGrid";
-
-export function AboutImages() {
-  return (
-    <div className="h-screen py-10 md:py-20 w-full">
-      <LayoutGrid cards={cards} />
-    </div>
-  );
-}
+import { thumbnails } from "../data"; // Import the thumbnail data
 
 const SkeletonOne = () => {
   return (
@@ -76,24 +69,32 @@ const cards = [
     id: 1,
     content: <SkeletonOne />,
     className: "md:col-span-2 col-span-1",
-    thumbnail: "/images/1.jpeg",
+    thumbnail: thumbnails[1],
   },
   {
     id: 2,
     content: <SkeletonTwo />,
     className: "col-span-1",
-    thumbnail: "/images/2.jpg",
+    thumbnail: thumbnails[2],
   },
   {
     id: 3,
     content: <SkeletonThree />,
     className: "col-span-1",
-    thumbnail: "/images/3.jpeg",
+    thumbnail: thumbnails[3],
   },
   {
     id: 4,
     content: <SkeletonFour />,
     className: "md:col-span-2 col-span-1",
-    thumbnail: "/images/4.jpeg",
+    thumbnail: thumbnails[4],
   },
 ];
+
+export function AboutImages() {
+  return (
+    <div className="h-screen py-10 md:py-20 w-full">
+      <LayoutGrid cards={cards} />
+    </div>
+  );
+}

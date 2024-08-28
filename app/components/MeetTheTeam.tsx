@@ -141,7 +141,7 @@ const MeetTheTeam: React.FC = () => {
       id="team"
     >
       <h2 className="text-5xl font-extrabold text-center mb-10">
-        Meet The Team
+        Meet The <span className="text-[#ef43cf]">Team</span>
       </h2>
       <div className="max-w-6xl mx-auto">
         <Tabs
