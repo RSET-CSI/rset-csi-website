@@ -1,8 +1,18 @@
 import { FaLocationArrow } from "react-icons/fa6";
 import { MagicBoarderButton } from "./ui/MagicBoarderButton";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
+import { smoothScrollTo } from "@/utils/smoothscroll";
 
 const Hero = () => {
+  const handleLinkClick = (
+    e: React.MouseEvent<HTMLAnchorElement>,
+    link: string
+  ) => {
+    e.preventDefault();
+    smoothScrollTo(link); // Call smoothScrollTo to handle the scrolling
+    // setIsMobileMenuOpen(false); // Remove or implement this if needed
+  };
+
   return (
     <div
       className="h-[50rem] w-full relative flex items-center justify-center"
@@ -12,13 +22,11 @@ const Hero = () => {
         className="absolute inset-0"
         style={{
           background: `
-          radial-gradient(circle at top left, rgba(187, 108, 230, 0.4) 10%, rgba(187, 108, 230, 0) 40%),
-          radial-gradient(circle at bottom right, rgba(56, 72, 241, 0.4) 15%, rgba(56, 72, 241, 0) 40%),
-          linear-gradient(to bottom right, #0a041c, #0a041c)`,
+            radial-gradient(circle at top left, rgba(187, 108, 230, 0.4) 10%, rgba(187, 108, 230, 0) 40%),
+            radial-gradient(circle at bottom right, rgba(56, 72, 241, 0.4) 15%, rgba(56, 72, 241, 0) 40%),
+            linear-gradient(to bottom right, #0a041c, #0a041c)`,
         }}
       ></div>
-
-      {/* <div className="absolute inset-0 dark:bg-dot-white/[0.2] bg-dot-black/[0.2] z-10"></div> */}
 
       <div className="absolute inset-0 flex items-center justify-center z-20 [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
 
@@ -36,7 +44,7 @@ const Hero = () => {
               className="text-center text-[40px] md:text-5xl lg:text-6xl"
             />
 
-            <a href="#projects">
+            <a href="#events" onClick={(e) => handleLinkClick(e, "#events")}>
               <MagicBoarderButton
                 text="Explore"
                 icon={<FaLocationArrow />}
