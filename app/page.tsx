@@ -16,8 +16,8 @@ export default function Home() {
       <About />
       <MeetTheTeam />
       <Events />
-      {/* <Gallery /> */}
-      {/* <JoinUs /> */}
+      <Gallery />
+      <JoinUs />
     </main>
   );
 }

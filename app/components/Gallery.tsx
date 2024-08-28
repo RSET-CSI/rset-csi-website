@@ -1,35 +1,33 @@
 import React, { useState } from "react";
-import {
-  Dialog,
-  IconButton,
-  ImageList,
-  ImageListItem,
-  Typography,
-} from "@mui/material";
+import { Dialog, IconButton, ImageList, ImageListItem } from "@mui/material";
 import {
   Close as CloseIcon,
-  ArrowBack as ArrowBackIcon,
-  ArrowForward as ArrowForwardIcon,
+  ArrowBack,
+  ArrowForward,
 } from "@mui/icons-material";
-import { images } from "../data"; // Import the data
+import { images } from "../data"; // Assuming images is an array of image URLs
 
 const Gallery: React.FC = () => {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
   const [currentIndex, setCurrentIndex] = useState<number>(0);
 
+  // Function to open the image dialog
   const openImage = (index: number) => {
     setCurrentIndex(index);
     setSelectedImage(images[index]);
   };
 
+  // Function to close the image dialog
   const closeImage = () => setSelectedImage(null);
 
+  // Function to navigate to the previous image
   const prevImage = () => {
     const newIndex = (currentIndex - 1 + images.length) % images.length;
     setCurrentIndex(newIndex);
     setSelectedImage(images[newIndex]);
   };
 
+  // Function to navigate to the next image
   const nextImage = () => {
     const newIndex = (currentIndex + 1) % images.length;
     setCurrentIndex(newIndex);
@@ -38,39 +36,25 @@ const Gallery: React.FC = () => {
 
   return (
     <div
-      className="absolute "
       style={{
         background: `
-          radial-gradient(circle at bottom left, rgba(187, 108, 230, 0.4) 10%, rgba(187, 108, 230, 0) 25%),
-          radial-gradient(circle at top right, rgba(56, 72, 241, 0.4) 10%, rgba(56, 72, 241, 0) 25%),
-          linear-gradient(to bottom right, #0a041c, #0a041c)`,
-        zIndex: -1, // Ensure the background is behind the content
+        radial-gradient(circle at top left, rgba(187, 108, 230, 0.4) 9%, rgba(187, 108, 230, 0) 30%),
+        radial-gradient(circle at bottom right, rgba(56, 72, 241, 0.4) 15%, rgba(56, 72, 241, 0) 40%),
+        linear-gradient(to bottom right, #0a041c, #0a041c)
+      `,
       }}
+      id="gallery"
     >
-      <h2 className="text-5xl font-extrabold text-center mb-10 text-[#3848f1]">
-        Gallery
+      <h2 className="text-5xl font-extrabold text-center mb-10 pt-10">
+        Image <span className="text-[#3848f1]">Gallery</span>
       </h2>
       <ImageList variant="masonry" cols={3} gap={8}>
         {images.map((img, index) => (
-          <ImageListItem
-            key={img}
-            onClick={() => openImage(index)}
-            sx={{
-              "&:hover": {
-                cursor: "pointer",
-                opacity: 0.8,
-              },
-            }}
-          >
+          <ImageListItem key={index} onClick={() => openImage(index)}>
             <img
               src={img}
               alt={`Gallery Image ${index + 1}`}
-              style={{
-                width: "100%",
-                height: "auto",
-                borderRadius: "8px",
-                objectFit: "cover",
-              }}
+              style={{ width: "100%", height: "auto", borderRadius: "8px" }}
             />
           </ImageListItem>
         ))}
@@ -81,30 +65,12 @@ const Gallery: React.FC = () => {
         onClose={closeImage}
         maxWidth="md"
         fullWidth
-        PaperProps={{
-          sx: {
-            position: "relative",
-            backgroundColor: "transparent",
-            boxShadow: "none",
-          },
-        }}
       >
         {selectedImage && (
-          <div
-            style={{
-              position: "relative",
-              padding: "16px",
-              textAlign: "center",
-            }}
-          >
+          <div style={{ position: "relative", textAlign: "center" }}>
             <IconButton
               aria-label="Close"
-              style={{
-                position: "absolute",
-                top: 16,
-                right: 16,
-                color: "#fff",
-              }}
+              style={{ position: "absolute", top: 16, right: 16 }}
               onClick={closeImage}
             >
               <CloseIcon />
@@ -112,41 +78,31 @@ const Gallery: React.FC = () => {
             <img
               src={selectedImage}
               alt="Selected"
-              style={{
-                width: "80%", // Adjust this value to make the image smaller or larger
-                height: "auto",
-                borderRadius: "8px",
-                maxWidth: "500px", // Ensures image doesn't exceed a certain width
-                margin: "0 auto", // Center the image
-              }}
+              style={{ width: "80%", maxWidth: "500px", borderRadius: "8px" }}
             />
             <IconButton
-              aria-label="Previous Image"
+              aria-label="Previous"
               style={{
                 position: "absolute",
                 left: 16,
                 top: "50%",
                 transform: "translateY(-50%)",
-                color: "#fff",
-                backgroundColor: "#000",
               }}
               onClick={prevImage}
             >
-              <ArrowBackIcon />
+              <ArrowBack />
             </IconButton>
             <IconButton
-              aria-label="Next Image"
+              aria-label="Next"
               style={{
                 position: "absolute",
                 right: 16,
                 top: "50%",
                 transform: "translateY(-50%)",
-                color: "#fff",
-                backgroundColor: "#000",
               }}
               onClick={nextImage}
             >
-              <ArrowForwardIcon />
+              <ArrowForward />
             </IconButton>
           </div>
         )}

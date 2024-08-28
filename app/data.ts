@@ -21,14 +21,14 @@ export const upcomingEvents = [
     id: 1,
     title: "Upcoming Event Title 1",
     description: "Short description of the upcoming event.",
-    imageUrl: "/images/1.JPEG",
+    imageUrl: "/images/pe10.png",
     link: "https://your-link-here.com",
   },
   {
     id: 2,
     title: "Upcoming Event Title 2",
     description: "Another upcoming event description.",
-    imageUrl: "/images/1.JPEG",
+    imageUrl: "/images/pe10.png",
     link: "https://your-link-here.com",
   },
   // Add more upcoming events as needed
