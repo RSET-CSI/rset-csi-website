@@ -24,7 +24,7 @@ const JoinUs = () => {
         <div className="flex flex-col sm:flex-row items-center gap-4 mt-6">
           <button
             onClick={handleJoinNowClick}
-            className="shadow-[inset_0_0_0_2px_#616467] text-black px-12 py-4 rounded-full tracking-widest uppercase font-bold bg-transparent hover:bg-[#3848f1] hover:text-white dark:text-neutral-200 transition duration-200"
+            className="shadow-[inset_0_0_0_2px_#616467] text-black px-12 py-4 rounded-full tracking-widest uppercase font-bold bg-transparent hover:shadow-[inset_0_0_0_2px_#3848f1] hover:text-[#3848f1] dark:text-neutral-200 transition duration-200"
           >
             Join Now
           </button>

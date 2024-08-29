@@ -15,20 +15,116 @@ export const thumbnails = {
   4: "/images/4.jpeg",
 };
 
+//MeetTheTeam
+interface TeamMember {
+  src: string;
+  name: string;
+}
+
+interface Team {
+  name: string;
+  lead?: { src: string; name: string };
+  members: TeamMember[];
+}
+
+export const teams: Team[] = [
+  {
+    name: "Core Team",
+    members: [
+      { src: "/images/c1.jpg", name: "President<br />Niya Poulose" },
+      { src: "/images/c2.JPG", name: "Vice President<br />Thomas John" },
+      { src: "/images/c3.jpg", name: "Secretary<br />Savio Sunny" },
+      { src: "/images/c4.jpg", name: "Joint Secretary<br />Theresa Jose" },
+      { src: "/images/c5.jpg", name: "Treasurer<br />Niyatha V S" },
+    ],
+  },
+  {
+    name: "Technical Team",
+    lead: {
+      src: "/images/techlead.png",
+      name: "Geevarghese Reji<br /> ( Lead )",
+    },
+    members: [
+      { src: "/images/tech1.jpg", name: "George Emmanuel Thomas" },
+      { src: "/images/tech2.jpg", name: "Alan Joseph" },
+      { src: "/images/tech3.jpeg", name: "Reuben Simon" },
+      { src: "/images/tech4.jpg", name: "Ashley K Alex" },
+      { src: "/images/tech5.jpg", name: "Abhishek Joby" },
+    ],
+  },
+  {
+    name: "Marketing Team",
+    lead: {
+      src: "/images/marklead.jpeg",
+      name: "Nikitha Sarah John<br /> ( Lead )",
+    },
+    members: [
+      { src: "/images/mark1.jpg", name: "Basil Sabu" },
+      { src: "/images/mark2.jpeg", name: "Sagar S" },
+      { src: "/images/mark3.jpeg", name: "Janet Eldo" },
+    ],
+  },
+  {
+    name: "Operations Team",
+    lead: { src: "/images/oplead.jpg", name: "Ebin Jose<br /> ( Lead )" },
+    members: [
+      { src: "/images/op1.PNG", name: "Arya K" },
+      { src: "/images/op2.JPG", name: "Suraj Panickar" },
+      { src: "/images/op3.jpg", name: "Gayatri Binoj" },
+    ],
+  },
+  {
+    name: "Documentation Team",
+    lead: { src: "/images/doclead.jpg", name: "Priya Anto<br /> ( Lead )" },
+    members: [
+      { src: "/images/doc1.jpg", name: "P S Ashna Parveen" },
+      { src: "/images/doc2.jpg", name: "Anushri Dileep" },
+      { src: "/images/doc3.jpg", name: "Eby J Kavungal" },
+    ],
+  },
+  {
+    name: "Creative Team",
+    lead: { src: "/images/crlead.jpeg", name: "David Justin<br /> ( Lead )" },
+    members: [
+      { src: "/images/cr1.webp", name: "Adith S" },
+      { src: "/images/cr2.jpg", name: "J V Keerthi" },
+      { src: "/images/cr3.jpg", name: "Jose Chemmanoor" },
+      { src: "/images/cr4.jpg", name: "Madhav Menon" },
+    ],
+  },
+  {
+    name: "Coordinators",
+    members: [
+      { src: "/images/cord1.jpg", name: "Coordinator<br />Dr. Tripti C" },
+      {
+        src: "/images/cord2.jpg",
+        name: "Associate Coordinator<br />Ms. Bency Wilson",
+      },
+    ],
+  },
+];
+
 //Events
 export const upcomingEvents = [
   {
     id: 1,
-    title: "Upcoming Event Title 1",
-    description: "Short description of the upcoming event.",
-    imageUrl: "/images/pe10.png",
+    title: "Techna XV and Website Launch",
+    description: "Coming Soon...",
+    imageUrl: "/images/up1.jpg",
     link: "https://your-link-here.com",
   },
   {
     id: 2,
-    title: "Upcoming Event Title 2",
-    description: "Another upcoming event description.",
-    imageUrl: "/images/pe10.png",
+    title: "Escape Room",
+    description: "Coming Soon...",
+    imageUrl: "/images/up2.png",
+    link: "https://your-link-here.com",
+  },
+  {
+    id: 3,
+    title: "Coder of the Month November",
+    description: "Coming Soon...",
+    imageUrl: "/images/up3.png",
     link: "https://your-link-here.com",
   },
   // Add more upcoming events as needed
