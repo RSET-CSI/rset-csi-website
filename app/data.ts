@@ -42,7 +42,7 @@ export const teams: Team[] = [
     name: "Technical Team",
     lead: {
       src: "/images/techlead.png",
-      name: "Geevarghese Reji<br /> ( Lead )",
+      name: "Geevarghese Regi<br /> ( Lead )",
     },
     members: [
       { src: "/images/tech1.jpg", name: "George Emmanuel Thomas" },
