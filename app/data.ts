@@ -107,22 +107,8 @@ export const teams: Team[] = [
 //Events
 export const upcomingEvents = [
   {
-    id: 1,
-    title: "Techna XV and Website Launch",
-    description: "Coming Soon...",
-    imageUrl: "/images/up1.jpg",
-    link: "https://your-link-here.com",
-  },
-  {
-    id: 2,
-    title: "Escape Room",
-    description: "Coming Soon...",
-    imageUrl: "/images/up2.png",
-    link: "https://your-link-here.com",
-  },
-  {
     id: 3,
-    title: "Coder of the Month November",
+    title: "Coder of the Month",
     description: "Coming Soon...",
     imageUrl: "/images/up3.png",
     link: "https://your-link-here.com",
@@ -234,7 +220,55 @@ export const pastEvents = [
       "An online, hands-on workshop. The event aimed to introduce participants to MachanScript, a new programming language developed by George Emmanuel Thomas.",
     imageUrl: "/images/pe16.jpg",
   },
-  // Add more past events as needed
+  {
+    id: 17,
+    title: "Inauguration of Techna XV",
+    description:
+      "Inauguration of Techna XV the launch of the 15 years anniversary celebration of the RSET CSI SB ,TECHNA 15 and the launch of our official website.",
+    imageUrl: "/images/pe17.jpg",
+  },
+  {
+    id: 18,
+    title: "Code-a-pookalam",
+    description:
+      "As part of the Onam festivities, the CSI RSET Student Branch organized Code-a-Pookalam, an innovative event aimed at blending coding skills with artistic vision to celebrate Kerala's heritage. Open to students from all years and other colleges, this unique competition invited participants to create a digital pookalam (floral design) using code",
+    imageUrl: "/images/pe18.jpg",
+  },
+  {
+    id: 19,
+    title: "Mavelikk Oru Portfolio",
+    description:
+      "As part of the Onam celebrations, CSI RSET Student Branch hosted 'Mavelikk Oru Portfolio', a creative design event that invited participants to craft a unique portfolio for Maveli, the legendary king. Open to students from all years and other colleges",
+    imageUrl: "/images/pe1.jpg",
+  },
+  {
+    id: 20,
+    title: "Hear It From Your Senior",
+    description:
+      "As part of Homecoming Week 2.0, the CSI RSET Student Branch hosted 'Hear It from Your Senior', an inspiring online event on September 21, 2024, featuring alumnus Ajoe Joseph. He shared his journey, tech industry experiences, and practical advice, inspiring first-year students as they began their engineering paths within the CSI RSET community.",
+    imageUrl: "/images/pe20.jpg",
+  },
+  {
+    id: 21,
+    title: "Mastering C",
+    description:
+      "On October 4, 2024, as part of Homecoming Week 2.0, CSI RSET SB organized an offline C programming workshop, 'Mastering C', led by Savio Sunny of S7 AD. Designed for first-year students, the workshop covered essential programming concepts with hands-on exercises, helping participants build confidence and enhance their coding and problem-solving skills.",
+    imageUrl: "/images/pe21.jpg",
+  },
+  {
+    id: 22,
+    title: "Frame by Frame",
+    description:
+      "On October 18, 2024, CSI RSET SB hosted 'Frame by Frame', a hands-on video editing workshop led by Milan Joe Baby at Zuse Lab. Participants learned essential editing techniques, software tools, and creative tips, equipping them with foundational skills for producing high-quality digital content for projects and media platforms.",
+    imageUrl: "/images/pe22.jpg",
+  },
+  {
+    id: 23,
+    title: "Engineering Beyond Classrooms",
+    description:
+      "On November 15, 2024, CSI RSET SB hosted 'Engineering Beyond Classroom', led by Shaino Sajimon at the Multimedia Hall. The session explored real-world applications of engineering, bridging theory and practice to inspire creative problem-solving and innovative thinking, and was highly appreciated for promoting experiential learning.",
+    imageUrl: "/images/pe23.jpg",
+  },
 ];
 
 //Gallery
