@@ -239,7 +239,7 @@ export const pastEvents = [
     title: "Mavelikk Oru Portfolio",
     description:
       "As part of the Onam celebrations, CSI RSET Student Branch hosted 'Mavelikk Oru Portfolio', a creative design event that invited participants to craft a unique portfolio for Maveli, the legendary king. Open to students from all years and other colleges",
-    imageUrl: "/images/pe1.jpg",
+    imageUrl: "/images/pe19.jpg",
   },
   {
     id: 20,
