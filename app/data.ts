@@ -269,6 +269,12 @@ export const pastEvents = [
       "On November 15, 2024, CSI RSET SB hosted 'Engineering Beyond Classroom', led by Shaino Sajimon at the Multimedia Hall. The session explored real-world applications of engineering, bridging theory and practice to inspire creative problem-solving and innovative thinking, and was highly appreciated for promoting experiential learning.",
     imageUrl: "/images/pe23.jpg",
   },
+   {
+    id: 24,
+    title: "Ciper Cross",
+    description:"Unleash your inner coder and solve a mind-bending crossword with clues derived from the outputs of given input codes.",
+    imageUrl: "/images/pe24.jpg",
+  },
 ];
 
 //Gallery
