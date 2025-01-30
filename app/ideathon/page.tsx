@@ -46,7 +46,7 @@ const IdeathonPage = () => {
         </Link>
 
         <h1 className="text-4xl md:text-5xl font-bold text-white mb-8">
-          Incubate <span className="text-[#3848f1]">25</span>
+          Incubate 20<span className="text-[#3848f1]">25</span>
         </h1>
 
         {/* Navigation Links for Smooth Scrolling */}
