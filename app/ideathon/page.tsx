@@ -46,11 +46,11 @@ const IdeathonPage = () => {
         </Link>
 
         <h1 className="text-4xl md:text-5xl font-bold text-white mb-8">
-          IdeaStorm 2024
+          Incubate 20<span className="text-[#3848f1]">25</span>
         </h1>
 
         {/* Navigation Links for Smooth Scrolling */}
-        <div className="flex space-x-6 mb-6">
+        <div className="flex space-x-6 mb-6 overflow-x-auto whitespace-nowrap px-2 scrollbar-hide">
           <button
             onClick={() => smoothScrollTo("#rounds")}
             className="text-[#ef43cf] hover:underline"
@@ -178,11 +178,11 @@ const IdeathonPage = () => {
                 <span className="font-semibold">
                   Round 1 Submission Deadline:
                 </span>{" "}
-                February 10th, 2024
+                February 10th, 2025
               </li>
               <li>
                 <span className="font-semibold">Final Pitch Date:</span> March
-                15th, 2024
+                15th, 2025
               </li>
             </ul>
           </section>
@@ -194,13 +194,16 @@ const IdeathonPage = () => {
             <h2 className="text-2xl font-bold text-[#3848f1] mb-4">
               Prize Pool
             </h2>
-            <p className="text-2xl font-bold text-white">₹15,000</p>
+            <p className="text-2xl font-bold text-white">₹10,000</p>
           </section>
 
           <div className="text-center pt-8">
             <button
               onClick={() =>
-                window.open("https://forms.gle/Ki5KcqEmon7TU4cx6", "_blank")
+                window.open(
+                  "https://docs.google.com/forms/d/e/1FAIpQLSf6ONxz4NcmXVbX9TCOf2G6GlB1NXEJJwKtULKkoGUzade0tQ/viewform?usp=header",
+                  "_blank"
+                )
               }
               className="px-8 py-3 text-lg bg-[#3848f1] hover:bg-[#2d3ac2] text-white rounded-full transition-colors"
             >

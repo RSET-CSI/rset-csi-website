@@ -16,7 +16,7 @@ const Banner = () => {
         <div className="flex-1 text-center md:text-left">
           <p className="text-black text-sm md:text-base">
             Join us for{" "}
-            <span className="font-bold text-[#3848f1]">Ideathon 2025</span> -
+            <span className="font-bold text-[#3848f1]">Incubate 2025</span> -
             Transform your innovative ideas into reality! 🚀
           </p>
         </div>
