@@ -138,7 +138,7 @@ const IdeathonPage = () => {
                 <p className="text-gray-300">
                   The top 15 teams from Round 1 will proceed to the next stage.
                   These teams will have one month to develop their project. On
-                  March 15th, they will present their product to a judging
+                  March 1st, they will present their product to a judging
                   panel.
                 </p>
               </div>
