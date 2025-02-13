@@ -39,16 +39,17 @@ const Banner = () => {
           <p className="text-black text-sm md:text-base">
             Join us for{" "}
             <span className="font-bold text-red-600">Incubate 2025</span> -
-            Transform your innovative ideas into reality! 🚀
+            Transform your innovative ideas into reality! 🚀 [Registerations are
+            closed !!]
           </p>
-          {/* Countdown Timer */}
-          <div className="text-black text-sm mt-2">
+
+          {/* <div className="text-black text-sm mt-2">
             <span className="font-bold text-red-600">{days}</span> d{" "}
             <span className="font-bold text-red-600">{hours}</span> h{" "}
             <span className="font-bold text-red-600">{minutes}</span> min{" "}
             <span className="font-bold text-red-600">{seconds}</span> sec
             remaining
-          </div>
+          </div> */}
         </div>
 
         <div className="flex items-center gap-3">
@@ -58,7 +59,7 @@ const Banner = () => {
           >
             Know More
           </button>
-          <button
+          {/* <button
             onClick={() =>
               window.open(
                 "https://docs.google.com/forms/d/e/1FAIpQLSf6ONxz4NcmXVbX9TCOf2G6GlB1NXEJJwKtULKkoGUzade0tQ/viewform?usp=header",
@@ -68,7 +69,7 @@ const Banner = () => {
             className="px-4 py-1.5 text-sm bg-red-600 hover:bg-red-800 text-white rounded-full transition-colors"
           >
             Register Now
-          </button>
+          </button> */}
           <button
             onClick={() => setIsVisible(false)}
             className="p-1.5 text-white hover:text-[#ef43cf] rounded-full transition-colors"

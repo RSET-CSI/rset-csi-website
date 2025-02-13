@@ -30,9 +30,9 @@ const CountdownTimer = () => {
   return (
     <div className="flex flex-col items-center justify-center bg-black/40 backdrop-blur-md p-4 sm:p-6 rounded-xl border border-white/10 w-full max-w-md lg:max-w-2xl xl:max-w-xl mx-auto">
       <h2 className="text-2xl font-bold mb-4">
-        Registration <span className="text-red-700">Closes </span>in !!
+        Registration <span className="text-red-700">Closed </span>!!
       </h2>
-      <div className="flex flex-wrap justify-center space-x-2 sm:space-x-4 text-white text-4xl sm:text-6xl font-bold">
+      {/* <div className="flex flex-wrap justify-center space-x-2 sm:space-x-4 text-white text-4xl sm:text-6xl font-bold">
         <div className="flex flex-col items-center mb-2 sm:mb-0">
           <span className="text-red-700">{days}</span>
           <span className="text-sm mt-1">Days</span>
@@ -49,7 +49,7 @@ const CountdownTimer = () => {
           <span className="text-red-700">{seconds}</span>
           <span className="text-sm mt-1">Seconds</span>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
