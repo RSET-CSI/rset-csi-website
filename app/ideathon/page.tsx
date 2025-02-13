@@ -138,8 +138,7 @@ const IdeathonPage = () => {
                 <p className="text-gray-300">
                   The top 15 teams from Round 1 will proceed to the next stage.
                   These teams will have one month to develop their project. On
-                  March 1st, they will present their product to a judging
-                  panel.
+                  March 1st, they will present their product to a judging panel.
                 </p>
               </div>
             </div>
@@ -243,7 +242,7 @@ const IdeathonPage = () => {
             </div>
           </section>
           <CountdownTimer />
-          <div className="text-center pt-8">
+          {/* <div className="text-center pt-8">
             <button
               onClick={() =>
                 window.open(
@@ -255,7 +254,7 @@ const IdeathonPage = () => {
             >
               Register Now
             </button>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
