@@ -29,13 +29,13 @@ const topics = [
 const collaborators = [
   {
     name: "CIO Klub",
-    logo: "/images/CIO_Logo.PNG", // Replace with actual logo path
+    logo: "/images/CIO_Logo.webp", // Replace with actual logo path
     description:
       "CIO Klub, established in 2008, is India's largest non-profit association of Chief Information Officers (CIOs). Its mission is to share and enhance knowledge on technological advancements and explore better business solutions for the IT community. CIO Klub's members represent diverse industries, including manufacturing, BFSI, services, pharma and healthcare, retail, real estate, and construction.",
   },
   {
     name: "FCG (First Consulting Group)",
-    logo: "/images/FCG_Logo.jpeg", // Replace with actual logo path
+    logo: "/images/FCG_Logo.webp", // Replace with actual logo path
     description:
       "FCG is an IT consulting and software development company specializing in web and mobile applications. Their expertise includes frontend (React, TypeScript), backend (Node.js, Python), cloud platforms (GCP, AWS, Supabase), and databases (MongoDB, SQL, PostgreSQL). They focus on Agile methodologies and customer satisfaction.",
   },
