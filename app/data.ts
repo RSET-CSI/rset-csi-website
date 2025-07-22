@@ -120,7 +120,7 @@ export const teams: Team[] = [
 export const upcomingEvents = [
   {
     id: 1,
-    title: "Coder of the Month (February)",
+    title: "Coder of the Month (August)",
     description: "Coming Soon...",
     imageUrl: "/images/up1.webp",
     link: "https://your-link-here.com",
@@ -296,7 +296,7 @@ export const pastEvents = [
     imageUrl: "/images/pe25.webp",
   },
   { id: 26,
-    title: "Techna XV Quiz",
+    title: "BINCRACK",
     description:
       "A fast-paced logic showdown that puts your speed, problem-solving, and pattern recognition to the test. Decode cleverly crafted binary puzzles under a ticking clock and compete to be the sharpest mind in the room!",
     imageUrl: "/images/pe26.webp",
