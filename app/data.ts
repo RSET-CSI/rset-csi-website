@@ -274,19 +274,32 @@ export const pastEvents = [
       "On October 18, 2024, CSI RSET SB hosted 'Frame by Frame', a hands-on video editing workshop led by Milan Joe Baby at Zuse Lab. Participants learned essential editing techniques, software tools, and creative tips, equipping them with foundational skills for producing high-quality digital content for projects and media platforms.",
     imageUrl: "/images/pe22.webp",
   },
-  {
-    id: 23,
-    title: "Engineering Beyond Classrooms",
-    description:
-      "On November 15, 2024, CSI RSET SB hosted 'Engineering Beyond Classroom', led by Shaino Sajimon at the Multimedia Hall. The session explored real-world applications of engineering, bridging theory and practice to inspire creative problem-solving and innovative thinking, and was highly appreciated for promoting experiential learning.",
-    imageUrl: "/images/pe23.webp",
-  },
+  // {
+  //   id: 23,
+  //   title: "Engineering Beyond Classrooms",
+  //   description:
+  //     "On November 15, 2024, CSI RSET SB hosted 'Engineering Beyond Classroom', led by Shaino Sajimon at the Multimedia Hall. The session explored real-world applications of engineering, bridging theory and practice to inspire creative problem-solving and innovative thinking, and was highly appreciated for promoting experiential learning.",
+  //   imageUrl: "/images/pe23.webp",
+  // },
   {
     id: 24,
     title: "Ciper Cross",
     description:
       "Unleash your inner coder and solve a mind-bending crossword with clues derived from the outputs of given input codes.",
     imageUrl: "/images/pe24.webp",
+  },
+  {
+    id: 25,
+    title: "The UX Factor",
+    description:
+      "✨ A day dedicated to exploring the power of UI/UX design, creative problem-solving, and building intuitive digital experiences.",
+    imageUrl: "/images/pe25.webp",
+  },
+  { id: 26,
+    title: "Techna XV Quiz",
+    description:
+      "A fast-paced logic showdown that puts your speed, problem-solving, and pattern recognition to the test. Decode cleverly crafted binary puzzles under a ticking clock and compete to be the sharpest mind in the room!",
+    imageUrl: "/images/pe26.webp",
   },
 ];
 
