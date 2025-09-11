@@ -1,0 +1,16 @@
+[
+  {
+    "Rank":1,
+    "uid":"U2404062",
+    "name":"Event 1 Participant 1",
+    "class":"IT",
+    "points":30
+  },
+  {
+    "Rank":1,
+    "uid":"U2404067",
+    "name":"Event 1 Participant 2",
+    "class":"EEE - Gamma",
+    "points":30
+  }
+]
