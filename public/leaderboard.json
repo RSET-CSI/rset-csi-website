@@ -1,107 +1,1563 @@
 [
   {
-    "Rank": 1,
-    "uid": "U2404001",
-    "name": "Alice Johnson",
-    "class": "CSE - Alpha",
-    "points": 85
+    "Rank":1,
+    "uid":"U2503235",
+    "name":"Romal R Pallan",
+    "class":"CSE - Delta",
+    "points":40
   },
   {
-    "Rank": 2,
-    "uid": "U2404002",
-    "name": "Bob Smith",
-    "class": "CSE - Alpha",
-    "points": 78
+    "Rank":1,
+    "uid":"U2504032",
+    "name":"Jeena Anish ",
+    "class":"IT",
+    "points":40
   },
   {
-    "Rank": 3,
-    "uid": "U2404003",
-    "name": "Charlie Brown",
-    "class": "IT - Beta",
-    "points": 92
+    "Rank":1,
+    "uid":"U2508064",
+    "name":"Tara Tony Joseph ",
+    "class":"AI&DS",
+    "points":40
   },
   {
-    "Rank": 4,
-    "uid": "U2404004",
-    "name": "Diana Prince",
-    "class": "ECE - Delta",
-    "points": 74
+    "Rank":1,
+    "uid":"U2509028",
+    "name":"Edwin m biju",
+    "class":"CSBS",
+    "points":40
   },
   {
-    "Rank": 5,
-    "uid": "U2404005",
-    "name": "Ethan Hunt",
-    "class": "EEE - Gamma",
-    "points": 65
+    "Rank":1,
+    "uid":"U2509030",
+    "name":"Eric John ",
+    "class":"CSBS",
+    "points":40
   },
   {
-    "Rank": 6,
-    "uid": "U2404006",
-    "name": "Fiona Gallagher",
-    "class": "CSE - Alpha",
-    "points": 88
+    "Rank":1,
+    "uid":"U2509039",
+    "name":"Joel Jery",
+    "class":"CSBS",
+    "points":40
   },
   {
-    "Rank": 7,
-    "uid": "U2404007",
-    "name": "George Lucas",
-    "class": "ME - Sigma",
-    "points": 70
+    "Rank":1,
+    "uid":"U2509048",
+    "name":"NAREN VINAYAK.V",
+    "class":"CSBS",
+    "points":40
   },
   {
-    "Rank": 8,
-    "uid": "U2404008",
-    "name": "Hannah Montana",
-    "class": "IT - Beta",
-    "points": 91
+    "Rank":2,
+    "uid":"U2503067",
+    "name":"Arnav Santhosh ",
+    "class":"CSE - Alpha",
+    "points":30
   },
   {
-    "Rank": 9,
-    "uid": "U2404009",
-    "name": "Ian McKellen",
-    "class": "ECE - Delta",
-    "points": 80
+    "Rank":2,
+    "uid":"U2504038",
+    "name":"Meera Manoj",
+    "class":"IT",
+    "points":30
   },
   {
-    "Rank": 10,
-    "uid": "U2404010",
-    "name": "Julia Roberts",
-    "class": "EEE - Gamma",
-    "points": 68
+    "Rank":2,
+    "uid":"U2504057",
+    "name":"Sanuja S ",
+    "class":"IT",
+    "points":30
   },
   {
-    "Rank": 11,
-    "uid": "U2404011",
-    "name": "Kevin Hart",
-    "class": "ME - Sigma",
-    "points": 72
+    "Rank":2,
+    "uid":"U2509033",
+    "name":"Gauri lakshmi ",
+    "class":"CSBS",
+    "points":30
   },
   {
-    "Rank": 12,
-    "uid": "U2404012",
-    "name": "Laura Palmer",
-    "class": "CSE - Alpha",
-    "points": 95
+    "Rank":3,
+    "uid":"ASHMISHAJU196",
+    "name":"Ashmi shaju",
+    "class":"ECE - Alpha",
+    "points":10
   },
   {
-    "Rank": 13,
-    "uid": "U2404013",
-    "name": "Michael Scott",
-    "class": "IT - Beta",
-    "points": 84
+    "Rank":3,
+    "uid":"DON’T KNOW YET",
+    "name":"Anitta Rosa Johny ",
+    "class":"ECE - Alpha",
+    "points":10
   },
   {
-    "Rank": 14,
-    "uid": "U2404014",
-    "name": "Nina Dobrev",
-    "class": "ECE - Delta",
-    "points": 76
+    "Rank":3,
+    "uid":"NEW STUDENT",
+    "name":"Sharon Rajesh",
+    "class":"CSE - Delta",
+    "points":10
   },
   {
-    "Rank": 15,
-    "uid": "U2404015",
-    "name": "Oscar Wilde",
-    "class": "EEE - Gamma",
-    "points": 66
+    "Rank":3,
+    "uid":"NOT RECEIVED",
+    "name":"Raina Bijo ",
+    "class":"CSE - Delta",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U209006",
+    "name":"Aleena B John",
+    "class":"CSBS",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2501003",
+    "name":"Aazni",
+    "class":"ECE - Alpha",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2501010",
+    "name":"Adwaith Binu ",
+    "class":"ECE - Alpha",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2501012",
+    "name":"Akshaya M R ",
+    "class":"ECE - Alpha",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2501013",
+    "name":"Alshifa Shibu",
+    "class":"ECE - Alpha",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2501020",
+    "name":"Alexander ",
+    "class":"ECE - Alpha",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2501021",
+    "name":"Alice kalliath ",
+    "class":"ECE - Alpha",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2501023",
+    "name":"Alna Joy",
+    "class":"ECE - Alpha",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2501025",
+    "name":"Aminda Erin E",
+    "class":"ECE - Alpha",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2501026",
+    "name":"Anagha Kalyani A Pillai ",
+    "class":"ECE - Alpha",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2501027",
+    "name":"Anaya Sunny ",
+    "class":"ECE - Alpha",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2501030",
+    "name":"Anjali v",
+    "class":"ECE - Alpha",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2501037",
+    "name":"Ansal I",
+    "class":"ECE - Alpha",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2501041",
+    "name":"Arjun Satheesh ",
+    "class":"ECE - Alpha",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2501048",
+    "name":"Athulya Babu",
+    "class":"ECE - Alpha",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2501051",
+    "name":"Beneeta P J ",
+    "class":"ECE - Alpha",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2501054",
+    "name":"C N BHADRA ",
+    "class":"ECE - Alpha",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2501055",
+    "name":"Cerine Rijo ",
+    "class":"ECE - Alpha",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2501059",
+    "name":"Christa Mariya",
+    "class":"ECE - Alpha",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2501063",
+    "name":"Davis Joseph",
+    "class":"ECE - Alpha",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2501065",
+    "name":"Derick Mathew Ashley",
+    "class":"ECE - Alpha",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2501068",
+    "name":"Devika S",
+    "class":"ECE - Alpha",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2501070",
+    "name":"Dhyan Jinesh ",
+    "class":"ECE - Alpha",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2501087",
+    "name":"Gautham Subramanian Hariram ",
+    "class":"ECE - Beta",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2501100",
+    "name":"Henniza Fathima V H",
+    "class":"ECE - Beta",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2501134",
+    "name":"Manav Santhosh ",
+    "class":"ECE - Beta",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2501136",
+    "name":"MARIAJOE JOSHY",
+    "class":"ECE - Beta",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2501146",
+    "name":"Mohammed fazil",
+    "class":"ECE - Gamma",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2501152",
+    "name":"Navaneeth V R",
+    "class":"ECE - Gamma",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2501156",
+    "name":"Neha M P",
+    "class":"ECE - Gamma",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2501167",
+    "name":"Nithya Sreekumar ",
+    "class":"ECE - Gamma",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2501173",
+    "name":"Parvana Rajesh ",
+    "class":"ECE - Gamma",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2501177",
+    "name":"Punyanjali TS",
+    "class":"ECE - Gamma",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2501178",
+    "name":"Raniya ck",
+    "class":"ECE - Gamma",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2501190",
+    "name":"Sona Jobi",
+    "class":"ECE - Gamma",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2501192",
+    "name":"Sreelekshmi r",
+    "class":"ECE - Gamma",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2501193",
+    "name":"Sreesankar B I",
+    "class":"ECE - Gamma",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2501196",
+    "name":"Sreya Rajesh",
+    "class":"ECE - Gamma",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2501197",
+    "name":"Sreya Sindhu Gopakumar ",
+    "class":"ECE - Gamma",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2501200",
+    "name":"Teresa Joe Sebastian ",
+    "class":"ECE - Gamma",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2501202",
+    "name":"Theresa Joseph ",
+    "class":"ECE - Gamma",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2501207",
+    "name":"Varsha Krishnaveni s ",
+    "class":"ECE - Gamma",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2501350",
+    "name":"ISAAC BIJO",
+    "class":"ECE - Beta",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2502009",
+    "name":"Anita Maria Shaiju ",
+    "class":"AEI",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2502011",
+    "name":"Ardra Dinesh ",
+    "class":"AEI",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2502013",
+    "name":"Avighna Jenvin V J",
+    "class":"AEI",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2502014",
+    "name":"Aysha Zehra ",
+    "class":"AEI - Alpha",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2502024",
+    "name":"Freya Mary praveen ",
+    "class":"AEI",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2502027",
+    "name":"Dani m babu",
+    "class":"AEI - Alpha",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2502046",
+    "name":"Neehara R Panicker ",
+    "class":"AEI",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2502055",
+    "name":"Rithunantha N A",
+    "class":"AEI",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503018",
+    "name":"Abiah Mary Mathew ",
+    "class":"CSE - Alpha",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503024",
+    "name":"Aditi Anil",
+    "class":"CSE - Alpha",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503025",
+    "name":"Adone V C ",
+    "class":"CSE - Alpha",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503026",
+    "name":"Advaith Hari shankar",
+    "class":"CSE - Alpha",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503028",
+    "name":"Aiden John Varghese ",
+    "class":"CSE - Alpha",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503029",
+    "name":"Aimee Daiz Abraham ",
+    "class":"CSE - Alpha",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503031",
+    "name":"Aishwarya A",
+    "class":"CSE - Alpha",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503032",
+    "name":"Aiswarya Anand",
+    "class":"CSE - Alpha",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503033",
+    "name":"Akash K A",
+    "class":"CSE - Alpha",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503034",
+    "name":"Akhil Pradeep Sudarsanan",
+    "class":"CSE - Alpha",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503037",
+    "name":"Aleena M Siju",
+    "class":"CSE - Alpha",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503039",
+    "name":"Alex K Seby",
+    "class":"CSE - Alpha",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503040",
+    "name":"ALVIN JACOB MATHEW ",
+    "class":"CSE - Alpha",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503041",
+    "name":"Alvin Madhu Varghese ",
+    "class":"CSE - Alpha",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503043",
+    "name":"Aman Saji",
+    "class":"CSE - Alpha",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503044",
+    "name":"AMEYA GEESH ",
+    "class":"CSE - Alpha",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503046",
+    "name":"Amrita Subash ",
+    "class":"CSE - Alpha",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503047",
+    "name":"ANANYA ANUP",
+    "class":"CSE - Alpha",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503049",
+    "name":"Andrea Ajosh ",
+    "class":"CSE - Alpha",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503052",
+    "name":"Anjali Shaju",
+    "class":"CSE - Alpha",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503053",
+    "name":"Anjusha Robin",
+    "class":"CSE - Alpha",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503054",
+    "name":"Ann Evana Gijo",
+    "class":"CSE - Alpha",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503056",
+    "name":"Anna Elizabeth Augustine ",
+    "class":"CSE - Alpha",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503057",
+    "name":"Anne Joseph Manikutty ",
+    "class":"CSE - Alpha",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503060",
+    "name":"Anson joice",
+    "class":"CSE - Alpha",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503062",
+    "name":"Anushka sunil",
+    "class":"CSE - Alpha",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503063",
+    "name":"Arathi Manmohan",
+    "class":"CSE - Alpha",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503064",
+    "name":"Ardra Saji Kumar ",
+    "class":"CSE - Alpha",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503068",
+    "name":"Arya Sajan",
+    "class":"CSE - Alpha",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503069",
+    "name":"Ashmith p",
+    "class":"CSE - Alpha",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503078",
+    "name":"Benita George",
+    "class":"CSE - Beta",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503081",
+    "name":"BHAGYALAKSHMI N M",
+    "class":"CSE - Beta",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503085",
+    "name":"Chessa Susan Koshy ",
+    "class":"CSE - Beta",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503092",
+    "name":"Davies Sebastian ",
+    "class":"CSE - Beta",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503096",
+    "name":"Devananda kt",
+    "class":"CSE - Beta",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503099",
+    "name":"Diya Sivakumar ",
+    "class":"CSE - Beta",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503101",
+    "name":"Edwin Tom ",
+    "class":"CSE - Beta",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503102",
+    "name":"ELANA BIA SABU ",
+    "class":"CSE - Beta",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503110",
+    "name":"Faras h",
+    "class":"CSE - Beta",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503111",
+    "name":"Fiona Robin",
+    "class":"CSE - Beta",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503112",
+    "name":"Ganga H Warrior ",
+    "class":"CSE - Beta",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503115",
+    "name":"Glenn George",
+    "class":"CSE - Beta",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503117",
+    "name":"GOPEEKRISHNAN ",
+    "class":"CSE - Beta",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503118",
+    "name":"Gouri M ",
+    "class":"CSE - Beta",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503124",
+    "name":"Hiba Ismail ",
+    "class":"CSE - Beta",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503125",
+    "name":"Hima Arun ",
+    "class":"CSE - Beta",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503127",
+    "name":"Irene Antony",
+    "class":"CSE - Beta",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503130",
+    "name":"Isha anna joby",
+    "class":"CSE - Beta",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503131",
+    "name":"Isra Mariam Das",
+    "class":"CSE - Beta",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503142",
+    "name":"Jiya Jaison",
+    "class":"CSE - Gamma",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503143",
+    "name":"Joan johnson",
+    "class":"CSE - Gamma",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503144",
+    "name":"Joann Elizabeth Baiju ",
+    "class":"CSE - Gamma",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503146",
+    "name":"Joel Biju",
+    "class":"CSE - Gamma",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503147",
+    "name":"Joel Sunil",
+    "class":"CSE - Gamma",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503149",
+    "name":"Johan Byju Jose ",
+    "class":"CSE - Gamma",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503154",
+    "name":"Jose Christopher S ",
+    "class":"CSE - Gamma",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503163",
+    "name":"JOVEEN JESS CHIRAYATH ",
+    "class":"CSE - Gamma",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503165",
+    "name":"Juanna Elizabeth Biju ",
+    "class":"CSE - Gamma",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503167",
+    "name":"Julia Hanna Jojy",
+    "class":"CSE - Gamma",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503178",
+    "name":"Levin George ",
+    "class":"CSE - Gamma",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503179",
+    "name":"LIANA ROBY",
+    "class":"CSE - Gamma",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503186",
+    "name":"Maria v george",
+    "class":"CSE - Gamma",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503188",
+    "name":"Meera Rajesh",
+    "class":"CSE - Gamma",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503190",
+    "name":"Milan Shaji Varkey ",
+    "class":"CSE - Gamma",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503196",
+    "name":"Musfira Moosa",
+    "class":"CSE - Gamma",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503197",
+    "name":"Naila Thandora",
+    "class":"CSE - Gamma",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503199",
+    "name":"Namitha Thomas",
+    "class":"CSE - Gamma",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503201",
+    "name":"Nandhana sunil ",
+    "class":"CSE - Gamma",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503203",
+    "name":"Natasha Shaji Varghese ",
+    "class":"CSE - Gamma",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503205",
+    "name":"Neeraj Prakash Nair",
+    "class":"CSE - Gamma",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503208",
+    "name":"Neha Mathews ",
+    "class":"CSE - Gamma",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503211",
+    "name":"Nidhin Antony Jojan",
+    "class":"CSE - Delta",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503212",
+    "name":"Nihal K Niaz",
+    "class":"CSE - Delta",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503214",
+    "name":"Nikita Prasad ",
+    "class":"CSE - Delta",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503215",
+    "name":"Nikitha Praveen ",
+    "class":"CSE - Delta",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503217",
+    "name":"Nora Sierra Nebu",
+    "class":"CSE - Delta",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503218",
+    "name":"Parvana Mohan",
+    "class":"CSE - Delta",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503222",
+    "name":"PRINCE JAISON ",
+    "class":"CSE - Delta",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503224",
+    "name":"Rachel Sunil Joseph ",
+    "class":"CSE - Delta",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503225",
+    "name":"Rahul Naveen",
+    "class":"CSE - Delta",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503226",
+    "name":"Rahul ",
+    "class":"CSE - Delta",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503228",
+    "name":"Ramshankar Ajeesh ",
+    "class":"CSE - Delta",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503230",
+    "name":"Rebekah P Joy",
+    "class":"CSE - Delta",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503232",
+    "name":"Ria Benny",
+    "class":"CSE - Delta",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503234",
+    "name":"Riya Ramesh ",
+    "class":"CSE - Delta",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503236",
+    "name":"Rose Mariya Sheen",
+    "class":"CSE - Delta",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503242",
+    "name":"Salini Saju",
+    "class":"CSE - Delta",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503244",
+    "name":"Samayi. A. S.",
+    "class":"CSE - Delta",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503247",
+    "name":"Sara Mary Soby",
+    "class":"CSE - Delta",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503251",
+    "name":"Serin Padua",
+    "class":"CSE - Delta",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503252",
+    "name":"Shees Muhamed",
+    "class":"CSE - Delta",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503255",
+    "name":"SMRITHI KRISHNA",
+    "class":"CSE - Delta",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503256",
+    "name":"Sneha Elsa Santhosh",
+    "class":"CSE - Delta",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503257",
+    "name":"Sneha Shaju ",
+    "class":"CSE - Delta",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503258",
+    "name":"Souparnika Baiju",
+    "class":"CSE - Delta",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503259",
+    "name":"Sreehari M ",
+    "class":"CSE - Delta",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503260",
+    "name":"Stevin Mathew ",
+    "class":"CSE - Delta",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503270",
+    "name":"Tony",
+    "class":"CSE - Delta",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2503277",
+    "name":"Zoha Fahd Manadath",
+    "class":"CSE - Delta",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2504018",
+    "name":"Deekshith Dileep",
+    "class":"IT",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2504020",
+    "name":"Dona Sojan",
+    "class":"IT",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2504021",
+    "name":"Elsa Maria Shimmy ",
+    "class":"IT",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2504023",
+    "name":"Fadiya nezmin",
+    "class":"IT",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2504030",
+    "name":"Ihsaan Mohammed Faisal ",
+    "class":"IT",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2504031",
+    "name":"Immanuel Tony",
+    "class":"IT",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2504033",
+    "name":"JEFITHA B SARASAM ",
+    "class":"IT",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2504035",
+    "name":"K DARSHINI",
+    "class":"IT",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2504036",
+    "name":"Linu",
+    "class":"IT",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2504040",
+    "name":"Mohammed Mishal M",
+    "class":"IT",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2504046",
+    "name":"Nikitha Rajeev ",
+    "class":"IT",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2504050",
+    "name":"Pranav Jayaprakash",
+    "class":"IT",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2504053",
+    "name":"Rose s vithayathil",
+    "class":"IT",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2504058",
+    "name":"Sarah Elsa Laji ",
+    "class":"IT",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2504059",
+    "name":"Saya Mariya Thomas ",
+    "class":"IT",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2504060",
+    "name":"SHREYA NANDA SUJIL ",
+    "class":"IT",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2504065",
+    "name":"swetha subash",
+    "class":"IT",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2504066",
+    "name":"Tessa j kudakasseril",
+    "class":"IT - Alpha",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2504069",
+    "name":"Vismaya Nk",
+    "class":"IT",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2505004",
+    "name":"Adarsh S ",
+    "class":"EEE",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2505007",
+    "name":"Adwyth S",
+    "class":"EEE",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2505043",
+    "name":"Mrinal Shivdas",
+    "class":"EEE",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2506006",
+    "name":"Abel anto ",
+    "class":"MECH - Alpha",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2506017",
+    "name":"Alfred Jojo Kavumkal",
+    "class":"MECH - Alpha",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2506019",
+    "name":"Amal B Nair",
+    "class":"MECH - Alpha",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2506021",
+    "name":"Amar zayan",
+    "class":"MECH - Alpha",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2506024",
+    "name":"Angel Johnson ",
+    "class":"MECH - Alpha",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2506028",
+    "name":"ANTONY ABRAHAM",
+    "class":"MECH - Alpha",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2506039",
+    "name":"Bassam Rehan",
+    "class":"MECH - Alpha",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2506083",
+    "name":"Krishnajith sudhakaran ",
+    "class":"MECH - Beta",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2506092",
+    "name":"Mohammed Sahil H ",
+    "class":"ECE - Gamma",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2506096",
+    "name":"Muhammed Raneem RN",
+    "class":"MECH - Beta",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2506106",
+    "name":"ROHITH S KRISHNA ",
+    "class":"MECH - Beta",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2506110",
+    "name":"Saan Siju ",
+    "class":"MECH - Beta",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2506111",
+    "name":"Sanjay R Manoj ",
+    "class":"MECH - Beta",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2506118",
+    "name":"Sreehari R V",
+    "class":"MECH - Beta",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2506125",
+    "name":"Tushar Mathew Tom ",
+    "class":"MECH - Beta",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2508002",
+    "name":"Abhijit S ",
+    "class":"AI&DS",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2508004",
+    "name":"Aditya Narayanan ",
+    "class":"AI&DS",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2508024",
+    "name":"Athira M",
+    "class":"AI&DS",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2508041",
+    "name":"Krishna Priya K R ",
+    "class":"AI&DS",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2508049",
+    "name":"Noble George ",
+    "class":"AI&DS",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2508050",
+    "name":"Pratham V shah",
+    "class":"AI&DS",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2508052",
+    "name":"Rima Riju",
+    "class":"AI&DS",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2508061",
+    "name":"Sriya Rajesh ",
+    "class":"AI&DS",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2508062",
+    "name":"Stina jacob",
+    "class":"AI&DS",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2509009",
+    "name":"Amanda Biju Mangaly ",
+    "class":"CSBS",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2509013",
+    "name":"Arpitha Mary Baby",
+    "class":"CSBS",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2509024",
+    "name":"Devika. S",
+    "class":"CSBS",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2509032",
+    "name":"Ganga S",
+    "class":"CSBS",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2509052",
+    "name":"Niya Tes Shajan",
+    "class":"CSBS",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2509053",
+    "name":"Pooja Ramesh ",
+    "class":"CSBS",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2509054",
+    "name":"Raichel Rose Thomas ",
+    "class":"CSBS",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2509067",
+    "name":"VENUS JAMES",
+    "class":"CSBS",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U253048",
+    "name":"Anat Alias",
+    "class":"CSE - Alpha",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2551443",
+    "name":"Nobin biju ",
+    "class":"ECE - Gamma",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U2557460",
+    "name":"Abhijith P R",
+    "class":"EEE",
+    "points":10
+  },
+  {
+    "Rank":3,
+    "uid":"U503038",
+    "name":"Aleena shaji ",
+    "class":"CSE - Alpha",
+    "points":10
   }
 ]
