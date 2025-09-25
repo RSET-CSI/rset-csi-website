@@ -102,47 +102,70 @@
 
   // --- Populate Student Leaderboard ---
   function populateStudentLeaderboard(studentData) {
-    const sorted = studentData.sort((a,b) => b.points - a.points);
-    let html = '';
-    sorted.forEach((s, idx) => {
-      html += `
-        <tr class="border-b hover:bg-gray-50">
-          <td class="p-3">${getRankContent(idx+1)}</td>
-          <td class="p-3 text-gray-500 font-mono text-sm">${s.uid}</td>
-          <td class="p-3 font-semibold text-gray-800">${s.name}</td>
-          <td class="p-3 text-gray-600">${s.class}</td>
-          <td class="p-3 font-bold text-gray-800 text-right">${s.points}</td>
-        </tr>
-      `;
-    });
-    studentLeaderboardBody.innerHTML = html;
-  }
+  const sorted = studentData.sort((a,b) => b.points - a.points);
+  let html = '';
+
+  let currentRank = 0;
+  let lastPoints = null;
+  let actualPosition = 0;
+
+  sorted.forEach((s) => {
+    actualPosition++; // counts real position
+    if (s.points !== lastPoints) {
+      currentRank = actualPosition; // update rank only if points differ
+      lastPoints = s.points;
+    }
+
+    html += `
+      <tr class="border-b hover:bg-gray-50">
+        <td class="p-3">${getRankContent(currentRank)}</td>
+        <td class="p-3 text-gray-500 font-mono text-sm">${s.uid}</td>
+        <td class="p-3 font-semibold text-gray-800">${s.name}</td>
+        <td class="p-3 text-gray-600">${s.class}</td>
+        <td class="p-3 font-bold text-gray-800 text-right">${s.points}</td>
+      </tr>
+    `;
+  });
+  studentLeaderboardBody.innerHTML = html;
+}
+
 
   // --- Calculate Class Leaderboard ---
   function populateClassLeaderboard(studentData) {
-    const classPoints = {};
-    studentData.forEach(s => {
-      const pts = Number(s.points) || 0;
-      if(!s.class) return;
-      classPoints[s.class] = (classPoints[s.class] || 0) + pts;
-    });
+  const classPoints = {};
+  studentData.forEach(s => {
+    const pts = Number(s.points) || 0;
+    if(!s.class) return;
+    classPoints[s.class] = (classPoints[s.class] || 0) + pts;
+  });
 
-    const sortedClasses = Object.entries(classPoints)
-      .map(([name, points]) => ({name, points}))
-      .sort((a,b) => b.points - a.points);
+  const sortedClasses = Object.entries(classPoints)
+    .map(([name, points]) => ({name, points}))
+    .sort((a,b) => b.points - a.points);
 
-    let html = '';
-    sortedClasses.forEach((cls, idx) => {
-      html += `
-        <tr class="border-b hover:bg-gray-50">
-          <td class="p-3">${getRankContent(idx+1)}</td>
-          <td class="p-3 font-semibold text-gray-800">${cls.name}</td>
-          <td class="p-3 font-bold text-gray-800 text-right">${cls.points}</td>
-        </tr>
-      `;
-    });
-    classLeaderboardBody.innerHTML = html;
-  }
+  let html = '';
+  let currentRank = 0;
+  let lastPoints = null;
+  let actualPosition = 0;
+
+  sortedClasses.forEach((cls) => {
+    actualPosition++;
+    if (cls.points !== lastPoints) {
+      currentRank = actualPosition;
+      lastPoints = cls.points;
+    }
+
+    html += `
+      <tr class="border-b hover:bg-gray-50">
+        <td class="p-3">${getRankContent(currentRank)}</td>
+        <td class="p-3 font-semibold text-gray-800">${cls.name}</td>
+        <td class="p-3 font-bold text-gray-800 text-right">${cls.points}</td>
+      </tr>
+    `;
+  });
+  classLeaderboardBody.innerHTML = html;
+}
+
 
   // --- Fetch JSON and populate ---
   window.addEventListener('load', () => {
