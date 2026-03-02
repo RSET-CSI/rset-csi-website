@@ -301,6 +301,12 @@ export const pastEvents = [
       "A fast-paced logic showdown that puts your speed, problem-solving, and pattern recognition to the test. Decode cleverly crafted binary puzzles under a ticking clock and compete to be the sharpest mind in the room!",
     imageUrl: "/images/pe26.webp",
   },
+  { id: 27,
+    title: "Code-For-Freedom",
+    description:
+      "a 5‑day online Capture the Flag (CTF) competition to celebrate the 78th Independence Day. The event will engage participants in coding and cybersecurity challenges inspired by India’s freedom struggle and cultural heritage.",
+    imageUrl: "/images/pe27.jpg",
+  },
 ];
 
 //Gallery
