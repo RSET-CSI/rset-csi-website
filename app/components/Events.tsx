@@ -46,7 +46,7 @@ const Events: React.FC = () => {
         <Swiper {...swiperSettings} className="w-full mb-12">
           {upcomingEvents.map((event) => (
             <SwiperSlide key={event.id}>
-              <CardContainer>
+              {/* <CardContainer>
                 <CardBody className="bg-gray-50 relative group/card dark:hover:shadow-2xl dark:hover:shadow-[#3848f1]/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[22rem] h-auto rounded-xl p-4 border">
                   <CardItem
                     translateZ="50"
@@ -71,7 +71,7 @@ const Events: React.FC = () => {
                     />
                   </CardItem>
                 </CardBody>
-              </CardContainer>
+              </CardContainer> */}
             </SwiperSlide>
           ))}
         </Swiper>
