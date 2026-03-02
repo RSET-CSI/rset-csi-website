@@ -331,6 +331,24 @@ export const pastEvents = [
       "The CSI Student Branch of Rajagiri School of Engineering and Technology (RSET) organized Triquest, a three-round technical challenge, on December 5, 2025, at the Photon Lab as part of its student engagement activities.",
     imageUrl: "/images/pe31.jpg",
   },
+  { id: 32,
+    title: "Agent 101- Hands on workshop on Agentic AI & Machine Learning",
+    description:
+      "As part of Abhiyanthriki 2025, the CSI SB RSET conducted a hands-on workshop titled Agents 101: Agentic AI & Machine Learning on October 15, 2025. The session was led by Mr. Alex V. Ajith, an AI Developer at PixDynamics and an alumnus of RSET. ",
+    imageUrl: "/images/pe32.jpg",
+  },
+  { id: 33,
+    title: "Decode & Conquer – An Online Multi-Level Tech Puzzle",
+    description:
+      "The CSI Student Branch of RSET hosted “Decode & Conquer – An Online Multi-Level Tech Puzzle” as part of Homecoming Week 3.0, on October 2, 2025. The event was conducted from 8:00 PM to 9:00 PM in an online mode, engaging students in an intellectually stimulating puzzle challenge.",
+    imageUrl: "/images/pe33.jpg",
+  },
+  { id: 34,
+    title: "Meme-o-Logic",
+    description:
+      "The Computer Society of India(CSI) SB RSET is organizing Meme-o-Logic, an online meme-making competition for all S1 students. Participants will be given two interesting captions and are required to create two original memes (one per caption).",
+    imageUrl: "/images/pe34.jpg",
+  },
 ];
 
 //Gallery
