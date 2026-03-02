@@ -367,17 +367,23 @@ export const pastEvents = [
       "As part of Confluence 2.0, the Rajagiri School of Engineering and Technology (RSET) in association with CSI organized Script to Screen: Filmmaking Workshop 2.0 on September 27, 2025. The session was held at Lecture Hall 2, Main Block, from 2:00 PM to 4:00 PM.",
     imageUrl: "/images/pe37.png",
   },
-  { id: 37,
+  { id: 38,
     title: "Techmoji",
     description:
       "CSI RSET SB hosted the “Techmoji” on 28th September 2025, an engaging online tech Pictionary conducted through the Quizizz platform. The event was exclusively for first-year students, designed to spark curiosity and creativity while testing technical knowledge in a fun and interactive way.",
     imageUrl: "/images/pe38.jpg",
   },
-  { id: 37,
+  { id: 39,
     title: "SPIN THE WHEEL",
     description:
       "The event is a technical challenge in which participating teams receive questions through an interactive spinning wheel. Teams are required to solve the problems and submit their responses.",
     imageUrl: "/images/pe39.jpeg",
+  },
+  { id: 40,
+    title: " AgentX – The Agentic AI Hackathon",
+    description:
+      "A 24-hour intensive hackathon centered on autonomous and agentic AI systems. The hackathon was held in partnership with Code Vipassana by Google and supported by Title Sponsor Voyon Folks, ensuring strong industry alignment, expert mentorship, and access to enterprise-grade tools and resources.",
+    imageUrl: "/images/pe40.jpeg",
   },
 ];
 
