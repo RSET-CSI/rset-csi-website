@@ -319,6 +319,18 @@ export const pastEvents = [
       "CSI RSET SB hosted “MindCraft: Architecting Agentic Intelligence”, a dynamic, hands-on workshop aimed at equipping students with practical skills in developing intelligent agent systems. The session was held on 9th August 2025 at the CCF Lab from 10:00 a.m. to 3:30 p.m., led by Ajoe Joseph, RSET alumnus (Batch of 2024) and Software Engineer.",
     imageUrl: "/images/pe29.jpeg",
   },
+  { id: 30,
+    title: "BEFORE YOU APPLY: YOUR COMPLETE INTERNSHIP GUIDE",
+    description:
+      "This insightful session aims to provide students with clearer future direction and a better understanding of how to approach internships effectively.",
+    imageUrl: "/images/pe30.jpg",
+  },
+  { id: 31,
+    title: "TRIQUEST",
+    description:
+      "The CSI Student Branch of Rajagiri School of Engineering and Technology (RSET) organized Triquest, a three-round technical challenge, on December 5, 2025, at the Photon Lab as part of its student engagement activities.",
+    imageUrl: "/images/pe31.jpg",
+  },
 ];
 
 //Gallery
