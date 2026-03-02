@@ -118,13 +118,13 @@ export const teams: Team[] = [
 
 //Events
 export const upcomingEvents = [
-  {
-    id: 1,
-    title: "Coder of the Month (August)",
-    description: "Coming Soon...",
-    imageUrl: "/images/up1.webp",
-    link: "https://your-link-here.com",
-  },
+  // {
+  //   id: 1,
+  //   title: "Coder of the Month (August)",
+  //   description: "Coming Soon...",
+  //   imageUrl: "/images/up1.webp",
+  //   link: "https://your-link-here.com",
+  // },
   // Add more upcoming events as needed
 ];
 
