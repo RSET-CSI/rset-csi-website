@@ -304,8 +304,20 @@ export const pastEvents = [
   { id: 27,
     title: "Code-For-Freedom",
     description:
-      "a 5‑day online Capture the Flag (CTF) competition to celebrate the 78th Independence Day. The event will engage participants in coding and cybersecurity challenges inspired by India’s freedom struggle and cultural heritage.",
+      "A 5‑day online Capture the Flag (CTF) competition to celebrate the 78th Independence Day. The event will engage participants in coding and cybersecurity challenges inspired by India’s freedom struggle and cultural heritage.",
     imageUrl: "/images/pe27.jpg",
+  },
+  { id: 28,
+    title: "Hear It from your Senior",
+    description:
+      "CSI RSET SB conducted Hear It From Your Senior on August 17, 2025, from 6:30 p.m. to 7:30 p.m. The session featured Mr. Kuriakose Mathew, RSET alumnus (Batch of 2017) and currently a Senior Research Engineer at Yahoo.",
+    imageUrl: "/images/pe28.jpeg",
+  },
+  { id: 29,
+    title: "Mindcraft",
+    description:
+      "CSI RSET SB hosted “MindCraft: Architecting Agentic Intelligence”, a dynamic, hands-on workshop aimed at equipping students with practical skills in developing intelligent agent systems. The session was held on 9th August 2025 at the CCF Lab from 10:00 a.m. to 3:30 p.m., led by Ajoe Joseph, RSET alumnus (Batch of 2024) and Software Engineer.",
+    imageUrl: "/images/pe29.jpeg",
   },
 ];
 
