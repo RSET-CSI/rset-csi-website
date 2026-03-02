@@ -349,6 +349,30 @@ export const pastEvents = [
       "The Computer Society of India(CSI) SB RSET is organizing Meme-o-Logic, an online meme-making competition for all S1 students. Participants will be given two interesting captions and are required to create two original memes (one per caption).",
     imageUrl: "/images/pe34.jpg",
   },
+  { id: 35,
+    title: "PASSION UNPLUGGED",
+    description:
+      "Computer Society of India SB RSET is conducting Passion Unplugged, an interactive session featuring Mr. R Balagopal, RSET Media Team Lead. Open to all years and branches, the event helps students explore life beyond B.Tech. and align passion with profession. ",
+    imageUrl: "/images/pe35.jpg",
+  },
+  { id: 36,
+    title: "Say Cheese!!! – A Campus Selfie Hunt",
+    description:
+      "The CSI Student Branch of RSET hosted “Say Cheese!!! – A Campus Selfie Hunt” as part of Homecoming Week 3.0, on September 12, 2025, at the RSET campus. The event was conducted from 11:35 AM to 12:30 PM, bringing together students for a fun and interactive photography challenge.",
+    imageUrl: "/images/pe36.jpg",
+  },
+  { id: 37,
+    title: "Script to Screen: Filmmaking Workshop 2.0",
+    description:
+      "As part of Confluence 2.0, the Rajagiri School of Engineering and Technology (RSET) in association with CSI organized Script to Screen: Filmmaking Workshop 2.0 on September 27, 2025. The session was held at Lecture Hall 2, Main Block, from 2:00 PM to 4:00 PM.",
+    imageUrl: "/images/pe37.png",
+  },
+  { id: 37,
+    title: "Techmoji",
+    description:
+      "CSI RSET SB hosted the “Techmoji” on 28th September 2025, an engaging online tech Pictionary conducted through the Quizizz platform. The event was exclusively for first-year students, designed to spark curiosity and creativity while testing technical knowledge in a fun and interactive way.",
+    imageUrl: "/images/pe38.jpg",
+  },
 ];
 
 //Gallery
