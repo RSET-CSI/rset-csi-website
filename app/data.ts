@@ -373,6 +373,12 @@ export const pastEvents = [
       "CSI RSET SB hosted the “Techmoji” on 28th September 2025, an engaging online tech Pictionary conducted through the Quizizz platform. The event was exclusively for first-year students, designed to spark curiosity and creativity while testing technical knowledge in a fun and interactive way.",
     imageUrl: "/images/pe38.jpg",
   },
+  { id: 37,
+    title: "SPIN THE WHEEL",
+    description:
+      "The event is a technical challenge in which participating teams receive questions through an interactive spinning wheel. Teams are required to solve the problems and submit their responses.",
+    imageUrl: "/images/pe39.jpeg",
+  },
 ];
 
 //Gallery
