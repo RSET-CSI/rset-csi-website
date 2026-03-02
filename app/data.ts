@@ -385,6 +385,12 @@ export const pastEvents = [
       "A 24-hour intensive hackathon centered on autonomous and agentic AI systems. The hackathon was held in partnership with Code Vipassana by Google and supported by Title Sponsor Voyon Folks, ensuring strong industry alignment, expert mentorship, and access to enterprise-grade tools and resources.",
     imageUrl: "/images/pe40.jpeg",
   },
+  { id: 41,
+    title: "Getting Noticed in a Competitive Market",
+    description:
+      "The CSI Student Branch of RSET organized an impactful talk session titled          “Getting Noticed in a Competitive Market” on 30 January 2026 at the Multimedia Hall from 11:35AM to 12:30PM. The session featured Ashik Joy, Co-founder of Verbi and a leading professional in student-focused talent acceleration.",
+    imageUrl: "/images/pe41.jpeg",
+  },
 ];
 
 //Gallery
