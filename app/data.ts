@@ -396,18 +396,25 @@ export const pastEvents = [
 //Gallery
 
 export const images = [
-  "/images/g1.webp",
+  //"/images/g1.webp",
+  
+  "/images/g15.webp",
+  "/images/g16.webp",
+  "/images/g17.webp",
+  "/images/g18.webp",
+  "/images/g19.webp",
+  
   "/images/g2.webp",
   "/images/g3.webp",
   "/images/g4.webp",
   "/images/g5.webp",
-  "/images/g6.webp",
+  //"/images/g6.webp",
   "/images/g7.webp",
-  "/images/g8.webp",
+  //"/images/g8.webp",
   "/images/g9.webp",
-  "/images/g10.webp",
-  "/images/g11.webp",
+  //"/images/g10.webp",
+  //"/images/g11.webp",
   "/images/g12.webp",
-  "/images/g13.webp",
-  "/images/g14.webp",
+  //"/images/g13.webp",
+  //"/images/g14.webp",
 ];
