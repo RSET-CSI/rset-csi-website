@@ -62,6 +62,14 @@ export const Navbar = ({
           >
             <span>Join Us</span>
           </a>
+          <a
+            href="/magazine"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="border text-sm font-medium border-purple-500/30 dark:border-purple-500/40 text-black dark:text-white px-4 py-2 rounded-full hover:bg-purple-500/10 dark:hover:bg-purple-500/20 transition duration-200"
+          >
+            <span>Magazine</span>
+          </a>
         </div>
 
         <div className="md:hidden flex items-center">
@@ -108,6 +116,14 @@ export const Navbar = ({
             className="block mt-4 border text-sm font-medium border-neutral-200 dark:border-white/[0.2] text-black dark:text-white px-4 py-2 rounded-full"
           >
             <span>Join Us</span>
+          </a>
+          <a
+            href="/magazine"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block mt-2 border text-sm font-medium border-purple-500/30 dark:border-purple-500/40 text-black dark:text-white px-4 py-2 rounded-full hover:bg-purple-500/10 dark:hover:bg-purple-500/20 transition duration-200"
+          >
+            <span>Magazine</span>
           </a>
         </div>
       )}
