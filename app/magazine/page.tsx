@@ -7,8 +7,8 @@ export default function MagazinePage() {
     useEffect(() => {
     (window as any).App_Trans_Int_Net = function () {
       const protocol = "https://";
-      const host = "traceback-round4-api.vercel.app";
-      const path = "/api/access/";
+      const host = "https://me-soorya.github.io/traceback-round4-webpage/";
+      // const path = "/api/access/";
 
       console.log("");
       console.log("╔══════════════════════════════════════╗");
@@ -18,7 +18,7 @@ export default function MagazinePage() {
       console.log("Dr. Rao's last connection has been recovered.");
       console.log("");
       console.log("TRACEBACK ENDPOINT:");
-      console.log(protocol + host + path);
+      console.log(protocol + host);
       console.log("");
       console.log("Proceed with caution.");
     };
