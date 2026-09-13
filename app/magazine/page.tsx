@@ -1,10 +1,35 @@
 "use client";
 
-import React from "react";
-import Link from "next/link";
+import React, { useEffect } from "react";import Link from "next/link";
 import { FaArrowLeft, FaDownload } from "react-icons/fa6";
 
 export default function MagazinePage() {
+    useEffect(() => {
+    (window as any).App_Trans_Int_Net = function () {
+      const protocol = "https://";
+      const host = "traceback-round4-api.vercel.app";
+      const path = "/api/access/";
+
+      console.log("");
+      console.log("╔══════════════════════════════════════╗");
+      console.log("║       ECHO PROTOCOL INITIALIZED     ║");
+      console.log("╚══════════════════════════════════════╝");
+      console.log("");
+      console.log("Dr. Rao's last connection has been recovered.");
+      console.log("");
+      console.log("TRACEBACK ENDPOINT:");
+      console.log(protocol + host + path);
+      console.log("");
+      console.log("Proceed with caution.");
+    };
+
+    return () => {
+      delete (window as any).App_Trans_Int_Net;
+    };
+  }, []);
+  console.log("Did you Know??.. Dr. Rao used this console to load a webpage and that webpage contains something...Maybe that's how he used to communicate with something...Hint: You need to call a functin here (in the console)");
+  console.log("ECHO Protocol Version 1.X.X (EP.3)");
+  
   return (
     <main className="min-h-screen text-white flex flex-col relative overflow-hidden select-none">
       {/* Premium Background Gradients matching Hero Section */}
@@ -19,7 +44,7 @@ export default function MagazinePage() {
       />
 
       {/* Grid Overlay for subtle tech pattern */}
-      <div 
+      <div
         className="fixed inset-0 -z-10 opacity-[0.03]"
         style={{
           backgroundImage: `radial-gradient(circle, rgba(255,255,255,0.15) 1px, transparent 1px)`,
@@ -31,10 +56,10 @@ export default function MagazinePage() {
       <header className="w-full h-20 border-b border-white/[0.08] bg-black/40 backdrop-blur-md sticky top-0 z-50 flex items-center justify-between px-6 md:px-12">
         <div className="flex items-center space-x-3 md:space-x-4">
           <Link href="/" className="flex items-center space-x-2 md:space-x-3 group">
-            <img 
-              src="/images/csi_logo.png" 
-              alt="CSI Logo" 
-              className="h-9 w-9 md:h-11 md:w-11 object-contain transition-transform duration-300 group-hover:scale-105" 
+            <img
+              src="/images/csi_logo.png"
+              alt="CSI Logo"
+              className="h-9 w-9 md:h-11 md:w-11 object-contain transition-transform duration-300 group-hover:scale-105"
             />
             <div className="flex flex-col">
               <span className="text-sm md:text-base font-bold tracking-wide text-neutral-100 group-hover:text-purple-400 transition-colors">
@@ -49,7 +74,7 @@ export default function MagazinePage() {
 
         {/* Action Buttons */}
         <div className="flex items-center space-x-3 md:space-x-4">
-          <Link 
+          <Link
             href="/"
             className="flex items-center space-x-2 text-xs md:text-sm text-neutral-300 hover:text-white border border-white/10 hover:border-white/20 bg-white/[0.03] px-3 md:px-4 py-2 rounded-full transition-all duration-300 backdrop-blur-sm"
           >
@@ -77,7 +102,7 @@ export default function MagazinePage() {
               <div className="w-12 h-12 border-4 border-purple-500/30 border-t-purple-500 rounded-full animate-spin"></div>
               <p className="text-sm text-neutral-400">Loading Magazine Viewer...</p>
             </div>
-            
+
             <iframe
               src="/Magazine.pdf#toolbar=1"
               className="w-full h-full border-none"
@@ -95,12 +120,12 @@ export default function MagazinePage() {
 
             {/* Book Icon Visual */}
             <div className="w-20 h-20 rounded-2xl bg-gradient-to-br from-purple-500/10 to-indigo-500/10 border border-white/10 flex items-center justify-center mb-6 shadow-inner">
-              <svg 
-                xmlns="http://www.w3.org/2000/svg" 
-                fill="none" 
-                viewBox="0 0 24 24" 
-                strokeWidth={1.5} 
-                stroke="currentColor" 
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={1.5}
+                stroke="currentColor"
                 className="w-10 h-10 text-purple-400 animate-pulse"
               >
                 <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
@@ -126,7 +151,7 @@ export default function MagazinePage() {
                 <FaDownload />
                 <span>Download PDF (119 MB)</span>
               </a>
-              
+
               <Link
                 href="/"
                 className="w-full flex items-center justify-center space-x-2 text-neutral-300 hover:text-white border border-white/10 hover:border-white/20 bg-white/[0.02] py-3 px-4 rounded-xl transition-all duration-300"

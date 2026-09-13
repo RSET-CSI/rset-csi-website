@@ -4,7 +4,7 @@ import { LinkPreview } from "./ui/LinkPreview";
 
 const About = () => {
   console.log("Looking For ECHO??... ");
-  console.log("ECHO Could be anywhere ??....You want a Clue??.. *Maybe in the MAG*");
+  console.log("ECHO Could be anywhere ??....You want a Clue??.. *Maybe in the MAG Z*");
   return (
     <div className="relative min-h-screen" id="about">
       <div
