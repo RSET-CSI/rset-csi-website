@@ -3,7 +3,8 @@ import { AboutImages } from "./AboutImages";
 import { LinkPreview } from "./ui/LinkPreview";
 
 const About = () => {
-  console.log("Looking For ECHO??");
+  console.log("Looking For ECHO??... ");
+  console.log("ECHO Could be anywhere ??....You want a Clue??.. *Maybe in the MAG*");
   return (
     <div className="relative min-h-screen" id="about">
       <div
