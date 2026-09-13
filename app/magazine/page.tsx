@@ -7,7 +7,7 @@ export default function MagazinePage() {
     useEffect(() => {
     (window as any).App_Trans_Int_Net = function () {
       const protocol = "https://";
-      const host = "https://me-soorya.github.io/traceback-round4-webpage/";
+      const host = "me-soorya.github.io/traceback-round4-webpage/";
       // const path = "/api/access/";
 
       console.log("");
